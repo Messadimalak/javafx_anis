@@ -1,0 +1,40 @@
+/* Style pour les boutons */
+.button {
+    -fx-background-color: #4CAF50; /* Couleur de fond */
+    -fx-text-fill: white; /* Couleur du texte */
+    -fx-font-size: 14px; /* Taille de la police */
+    -fx-padding: 8px 16px; /* Remplissage */
+    -fx-border-radius: 4px; /* Rayon des coins */
+}
+
+/* Style lorsque le bouton est survolé */
+.button:hover {
+    -fx-background-color: #45a049; /* Nouvelle couleur de fond */
+}
+
+/* Style lorsque le bouton est pressé */
+.button:pressed {
+    -fx-background-color: #3e8e41; /* Nouvelle couleur de fond */
+}
+/* Style pour les boutons */
+.button {
+    -fx-background-color: #4CAF50; /* Couleur de fond */
+    -fx-text-fill: white; /* Couleur du texte */
+    -fx-font-size: 14px; /* Taille de la police */
+    -fx-padding: 8px 16px; /* Remplissage */
+    -fx-border-radius: 4px; /* Rayon des coins */
+}
+
+/* Style pour les champs de texte */
+.text-field {
+    -fx-background-color: #f2f2f2; /* Couleur de fond */
+    -fx-font-size: 14px; /* Taille de la police */
+    -fx-padding: 8px; /* Remplissage */
+    -fx-border-radius: 4px; /* Rayon des coins */
+    -fx-border-color: #ccc; /* Couleur de la bordure */
+}
+
+/* Style lorsque le champ de texte est en focus */
+.text-field:focused {
+    -fx-border-color: #4CAF50; /* Couleur de la bordure */
+}
